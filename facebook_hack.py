@@ -24,7 +24,7 @@ except ImportError:
     errMsg("[ requests ] module is missing")
     print("  [*] Please Use: 'pip install requests' to install it :)")
     sys.exit(1)
-try:import mechanize
+try:import [ 'pip install mechanize']
 except ImportError:
     errMsg("[ mechanize ] module is missing")
     print("  [*] Please Use: 'pip install mechanize' to install it :)")
@@ -278,3 +278,4 @@ if __name__=='__main__':
 #This Tool by Oseid Aldary
 #Have a nice day :)
 #GoodBye
+'pip install mechanize'
